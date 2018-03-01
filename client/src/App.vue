@@ -1,13 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <employee-form></employee-form>
+    <employee-results></employee-results>
   </div>
 </template>
 
 <script>
+import EmployeeForm from './components/EmployeeForm'
+import EmployeeResults from './components/EmployeeResults'
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    EmployeeForm,
+    EmployeeResults
+  }
 }
 </script>
 
@@ -17,7 +23,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
