@@ -29,7 +29,7 @@
 
 	- entre na pasta onde foi baixado o projeto
 	```console
-	$cd LapChallenge
+	$ cd LapChallenge
 	```
 	- entre na pasta de back-end e faça o download das dependências
 	```console
