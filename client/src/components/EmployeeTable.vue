@@ -26,23 +26,9 @@
 import Employee from './Employee'
 export default {
   extends: Employee,
-  mounted () {
-    this.setupTable()
-  },
-  methods: {
-    setupTable () {
-      this.formatedEmployees = this.$store.state.formatedEmployeesTable
-    }
-  },
-  data () {
-    return {
-      table: null,
-      formatedEmployees: []
-    }
-  },
   computed: {
     employees () {
-      return this.$store.state.formatedEmployeesTable
+      return this.$store.state.formatedEmployees
     }
   }
 }

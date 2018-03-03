@@ -54,7 +54,7 @@ export default {
     return {
       blueTitle: 'Cadastre-se',
       whiteTitle: 'Dados',
-      subTitle: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.',
+      subTitle: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit.'
     }
   }
 }
