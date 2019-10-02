@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "highcharts": "^7.0.1",
+    "highcharts": "^7.2.0",
     "lodash": "^4.17.13",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
